@@ -5,27 +5,54 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
+// var foods = {
+//   apples: 23, 
+//   grapes: 507, 
+//   eggs: 48
+// }
+
+// Write code that prints all of the 'keys' of the foods variable 
+// you created above:
 var foods = {
   apples: 23, 
   grapes: 507, 
   eggs: 48
 }
-
-// Write code that prints all of the 'keys' of the foods variable 
-// you created above:
-// YOUR CODE HERE
+console.log (Object.keys (foods))
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+}
+console.log (Object.keys (foods))
+console.log (Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+}
+console.log (Object.keys (foods))
+console.log (Object.values(foods))
+console.log (foods.grapes)
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+}
+console.log (Object.keys (foods))
+console.log (Object.values(foods))
+console.log (foods.grapes)
+foods.bananas = 500
+console.log (foods.bananas)
 
 
 // -------------------
@@ -41,14 +68,21 @@ var foods = {
 
 // Write code that logs your email object to the terminal.
 
+var email = {
+  sender: "Sclumpydoomp@gmail.com", 
+  to: "shoomadimpla@hotmail.com",
+  subject: "Hello!",
+  body: "whats the haps",
+  cc: "Gleekofirapa@raybands.net"
+}
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log (Object.keys(email))
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log (Object.values(email)))
 
 
 // -------------------
@@ -99,3 +133,27 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = [ 
+  {
+    sender: "Sclumpydoomp@gmail.com", 
+    to: "shoomadimpla@hotmail.com",
+    subject: "Hello!",
+    body: "whats the haps",
+    cc: "Gleekofirapa@raybands.net"
+  },
+  {
+    sender: "fitzbanpoopa@gmail.com",
+    to: "guybandoba@shemuck.com",
+    subject: "welp...",
+    body: "the deed is done",
+    cc: "god@gmail.com"
+  },
+  {
+    sender: "god@fbi.org",
+    to: "irs@irs.org",
+    subject: "we meet again",
+    body: "someday you will have to answer for the money",
+    cc: "none"
+  }
+]
